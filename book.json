@@ -1,0 +1,55 @@
+{
+  "title": "",
+  "author": "",
+  "description": "",
+  "language": "zh-hans",
+  "styles": {
+    "website": "styles/website.css"
+  }, 
+  "markdown": {
+    "hardwrap": true
+  },
+  "collapsible_menu":false,
+  "plugins": [
+    "katex-ng",
+    "theme-comscore",
+    "-highlight",
+    "prism",
+    "copy-code-button",
+    "search-pro",
+    "-search",
+    "-lunr",
+    "expandable-chapters",
+    "splitter",
+    "-sharing",
+    "tbfed-pagefooter",
+    "anchor-navigation-ex",
+    "chapter-fold",
+    "mermaid-gb3",
+    "simple-mind-map"
+  ],
+  "pluginsConfig": {
+    "katex-ng": {
+      "options": {
+        "strict": "unicodeTextInMathMode"
+      }
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-solarizedlight.css"
+      ],
+      "lang": {
+        "shell": "bash"
+      }
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false
+    },
+    "simple-mind-map": {
+      "type": "markdown",
+      "preset": "colorful",
+      "linkShape": "diagonal",
+      "autoFit": true
+    }
+  }
+}
