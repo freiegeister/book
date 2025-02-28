@@ -12,6 +12,9 @@
 ## Crypto&AI
 * [Crypto](认知/Crypto.md)
 
+## 基础
+* [二项式](由二项式发端.md)
+
 <!-- 
 ## 认知
 * [绪言](README.md)
